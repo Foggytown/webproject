@@ -9,7 +9,6 @@ from sqlalchemy.orm import object_session
 from LoginForm import LoginForm
 from RegisterForm import RegisterForm
 from NewsForm import NewsForm
-from BuyForm import BuyForm
 from flask_restful import reqparse, abort, Api, Resource
 from flask_login import LoginManager, login_required, current_user, login_user, logout_user
 from news_resources import NewsListResource, NewsResource
